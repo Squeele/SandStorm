@@ -1,0 +1,5 @@
+F:\GodotMonoProjects\SndStrmTest\.mono\temp\bin\Tools\SndStrmTest.dll
+F:\GodotMonoProjects\SndStrmTest\.mono\temp\bin\Tools\SndStrmTest.pdb
+F:\GodotMonoProjects\SndStrmTest\.mono\temp\obj\Tools\SndStrmTest.csprojResolveAssemblyReference.cache
+F:\GodotMonoProjects\SndStrmTest\.mono\temp\obj\Tools\SndStrmTest.dll
+F:\GodotMonoProjects\SndStrmTest\.mono\temp\obj\Tools\SndStrmTest.pdb

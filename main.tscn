@@ -1,0 +1,30 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://Characters/Sand/SandComp.tscn" type="PackedScene" id=1]
+[ext_resource path="res://Landscapes/Test/plane.tscn" type="PackedScene" id=2]
+[ext_resource path="res://Landscapes/Test/element.tscn" type="PackedScene" id=3]
+
+[node name="Spatial" type="Spatial"]
+
+[node name="SandComp" parent="." index="0" instance=ExtResource( 1 )]
+
+_sections_unfolded = [ "Transform" ]
+
+[node name="Plane" parent="." index="1" instance=ExtResource( 2 )]
+
+[node name="MeshInstance" parent="." index="2" instance=ExtResource( 3 )]
+
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1.8121, 0, 14.318 )
+_sections_unfolded = [ "Transform", "material" ]
+
+[node name="MeshInstance2" parent="." index="3" instance=ExtResource( 3 )]
+
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.512744, 0, 10.2764 )
+_sections_unfolded = [ "Transform", "material" ]
+
+[node name="MeshInstance3" parent="." index="4" instance=ExtResource( 3 )]
+
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -9.413, 0, 8.98511 )
+_sections_unfolded = [ "Transform", "material" ]
+
+
